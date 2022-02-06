@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1a1a1c;
+  color: #fff;
+}
+
+* .coin-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+* .coin-app .coin-search {
+  width: 100%;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* .coin-app form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #e2e2e2;
+}
+
+* .coin-app form .coin-input {
+  outline: none;
+  padding-left: 16px;
+  height: 40px;
+  width: 70%;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+}
+
+* .coin-app .coin-input::-webkit-input-placeholder {
+  color: #e2e2e2;
+}
+
+* .coin-app .coin-input:-ms-input-placeholder {
+  color: #e2e2e2;
+}
+
+* .coin-app .coin-input::-ms-input-placeholder {
+  color: #e2e2e2;
+}
+
+* .coin-app .coin-input::placeholder {
+  color: #e2e2e2;
+}
+
+* .coin-app .coin-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+/*# sourceMappingURL=CryptoApp.css.map */
