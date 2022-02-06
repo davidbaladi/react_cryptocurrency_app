@@ -3,5 +3,5 @@ Axios-based Crypto App to query and display recent blockchain data
 
 Mobile responsive upon uncommenting sections in .scss files
 
-Dependencies:
+Dependencies:  
 npm install Axios
