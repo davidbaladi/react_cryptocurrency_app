@@ -6,5 +6,5 @@ Mobile responsive upon uncommenting sections in .scss files
 Dependencies:  
 npm install Axios
 
-Launching App in VSCode:  
+Launching App in VSCode terminal:  
 npm start
